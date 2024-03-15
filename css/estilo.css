@@ -1,0 +1,140 @@
+#grip
+{
+    border-style: solid;
+    padding: 30px;
+}
+
+#contenedor{
+    display: grid;
+    grid-template-columns: 30% 30% 20% 20%;
+    grid-template-rows: 100px 100px 100px 50px 50px;
+}
+
+#caja1-grip
+{   
+    grid-column: 1/5;
+    border-style: solid;
+    background-color: rgb(211, 63, 52);
+}
+#caja2-grip
+{   
+    grid-column: 1/3;
+    border-style: solid;
+    background-color: rgb(227, 105, 34);
+}
+#caja3-grip
+{   
+    grid-column: 3/4;
+    border-style: solid;
+    background-color: rgb(236, 195, 59);
+}
+#caja4-grip
+{   
+    grid-column: 4/5;
+    border-style: solid;
+    background-color: rgb(132, 203, 45);
+}
+#caja5-grip
+{   
+    grid-column: 1/2;
+    border-style: solid;
+    background-color: rgb(63, 142, 54);
+}
+
+#caja6-grip
+{   
+    grid-column: 2/5;
+    border-style: solid;
+    background-color: rgb(40, 197, 132);
+}
+
+#caja7-grip
+{   
+    grid-column: 1/3;
+    grid-row: 4/6;
+    border-style: solid;
+    background-color: rgb(69, 141, 170);
+}
+
+#caja8-grip
+{   
+    grid-column: 3/5;
+    border-style: solid;
+    background-color: rgb(117, 83, 176);
+}
+
+#caja9-grip
+{   
+    grid-column: 3/5;
+    border-style: solid;
+    background-color: rgb(165, 63, 148);
+}
+
+#flex
+{
+    border-style: solid;
+    display: flex;
+    flex-direction: row;
+}
+
+#caja1-flex
+{
+    border-style: solid;
+    margin: 30px;
+    width: 30%;
+    background-color: rgb(128, 51, 51);
+    height: 600px;
+}
+#caja2-flex
+{
+    border-style: solid;
+    margin: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 40%;
+    background-color: rgb(160, 75, 74);
+    height: 600px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+#caja31-flex
+{
+    border-style: solid;
+    margin: auto;
+    margin-top: 40px;
+    width: 100%;
+    background-color: rgb(69, 135, 170);
+    height: 230px;
+}
+
+#caja32-flex
+{
+    margin: auto;
+    margin-top: 40px;
+    width: 100%;
+    height: 230px;
+}
+
+#caja41-flex
+{
+    float: left;
+    border-style: solid;
+    width: 45%;
+    background-color: rgb(70, 103, 145);
+    height: 230px;
+}
+#caja42-flex
+{
+    float: right;
+    border-style: solid;
+    width: 45%;
+    background-color: rgb(70, 103, 145);
+    height: 230px;
+}
+#bootstrap
+{
+    border-style: solid;
+}
+
+
